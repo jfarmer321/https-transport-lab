@@ -1,0 +1,9 @@
+Transport lab | generated offline traces
+TLS version: TLSv1.2
+Cipher suite: ECDHE-RSA-CHACHA20-POLY1305
+PASS | HTTP transport contains the fake message.
+PASS | HTTPS transport does not contain the fake message.
+PASS | The HTTPS endpoints received the exact request and response.
+PASS | Untrusted issuer rejected: unable to get local issuer certificate
+PASS | Wrong hostname rejected despite trusting the issuer: Hostname mismatch, certificate is not valid for 'wrong.example'.
+PCAP timing, IP addresses, and TCP headers are synthetic.

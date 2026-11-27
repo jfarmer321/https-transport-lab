@@ -2,7 +2,7 @@
 
 If I send the exact same message over HTTP and HTTPS, what can I read from the traffic? And if a server offers encryption but presents the wrong certificate, will the client still connect?
 
-This small Python lab answers both questions. It uses a fake message and runs offline. Start with the [write-up](writeup.md) or open the traces and inspect them yourself.
+I wanted to answer those questions with two traces I could open side by side in Wireshark. I kept the message the same and ran the exchange offline, so I could focus on what TLS changed rather than the traffic around it. The [write-up](writeup.md) explains why I tested the certificate checks separately.
 
 | Test | Result |
 | --- | --- |

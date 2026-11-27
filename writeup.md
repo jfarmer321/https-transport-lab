@@ -1,6 +1,6 @@
 # Lab notes: Testing What HTTPS Protects
 
-## Why compare these?
+## Why I wanted to see the packets
 
 I wanted an example where I could point to the exact thing HTTPS changes. It is easy to say “HTTPS encrypts traffic,” but that leaves out an important question: how does the client know it is encrypting traffic to the right server?
 
